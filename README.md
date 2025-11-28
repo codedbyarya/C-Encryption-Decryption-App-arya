@@ -1,7 +1,7 @@
 
 # Encryption-Decryption App (C MAJOR Project)
 
-This is my C programming major project for **CSEG1032 (Programming in C)**.  
+This is my C programming major project for Programming in C.  
 It is a menu-driven **Encryption–Decryption Application** that supports multiple algorithms.
 
 ---
@@ -34,8 +34,8 @@ It is a menu-driven **Encryption–Decryption Application** that supports multip
 │   ├── decrypt.h
 │   └── utils.h
 ├── docs/
-│   └── ProjectReport.pdf   (final report will be placed here)
+│   └── ProjectReport.pdf  
 ├── assets/
-│   └── (screenshots / diagrams)
+│
 ├── README.md
 └── sample_input.txt
