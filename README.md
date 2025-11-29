@@ -1,41 +1,86 @@
 
-# Encryption-Decryption App (C MAJOR Project)
+# Encryption–Decryption Application (MAJOR C PROJECT)
 
-This is my C programming major project for Programming in C.  
-It is a menu-driven **Encryption–Decryption Application** that supports multiple algorithms.
+This project is a menu-based encryption and decryption program made in C.  
+I created it as part of my Major Project for the subject Programming in C.  
+The program supports three simple text-based algorithms and runs fully in the terminal.
 
----
+## Features
 
-## 🔹 Features
+- Three algorithms:
+  - Caesar Shift Cipher
+  - Reverse + Shift Cipher
+  - Vigenere-style Cipher
+- Works with both number keys and word keys
+- Modular code using separate `.c` and `.h` files
+- Safe input handling so the program doesn't crash
+- Follows the folder structure given in the guidelines
 
-- Menu-based interface (Encrypt / Decrypt / Exit)
-- Three different algorithms:
-  1. **Caesar Shift Cipher**
-  2. **Reverse + Shift Cipher**
-  3. **Vigenere-style Cipher** using a word key
-- Handles invalid numeric input safely
-- Works on both uppercase and lowercase alphabets
-- Clean modular code with separate **.c** and **.h** files
+## Folder Structure
 
----
-
-## 🔹 Folder Structure
-
-```text
-/
+C_Encryption_Decryption_App
+|
 ├── src/
-│   ├── main.c
-│   ├── encrypt.c
-│   ├── decrypt.c
-│   └── utils.c
+│ ├── main.c
+│ ├── encrypt.c
+│ ├── decrypt.c
+│ └── utils.c
+|
 ├── include/
-│   ├── main.h
-│   ├── encrypt.h
-│   ├── decrypt.h
-│   └── utils.h
+│ ├── main.h
+│ ├── encrypt.h
+│ ├── decrypt.h
+│ └── utils.h
+|
 ├── docs/
-│   └── ProjectReport.pdf  
+│ └── ProjectReport.pdf
+|
 ├── assets/
-│
-├── README.md
-└── sample_input.txt
+│ ├── terminal_output.png
+│ ├── github_structure.png
+│ └── vscode_project_structure.png
+|
+├── sample_input.txt
+└── README.md
+
+## How to Compile
+
+Use GCC:
+gcc src/main.c src/utils.c src/encrypt.c src/decrypt.c -Iinclude -o main
+
+## How to Run
+
+.\main
+
+## Sample Input and Output
+
+Input-
+HELLO UPES
+Algorithm: Caesar
+Key: 3
+
+Output-
+KHOOR XSHT
+
+
+## Screenshots
+
+All screenshots  
+are kept in the assets folder and also added to the report.
+terminal_output.png
+terminal_output2.png
+github_structure.png
+vscode_project_structure.png
+
+## Tools Used
+- C language  
+- GCC compiler  
+- VS Code  
+- Git and GitHub  
+
+## Author
+K Arya
+SAP ID- 590025917
+B.Tech CSE, Batch 38  
+UPES Dehradun
+Faculty- Dr Tanu Singh
